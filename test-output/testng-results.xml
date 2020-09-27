@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48831" started-at="2020-09-27T07:20:23Z" finished-at="2020-09-27T07:21:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48831" started-at="2020-09-27T07:20:23Z" finished-at="2020-09-27T07:21:12Z">
+      <class name="demo.FirstTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.FirstTest@19bb089b]" name="beforeTest" is-config="true" duration-ms="21106" started-at="2020-09-27T12:50:23Z" finished-at="2020-09-27T12:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:demo.FirstTest@19bb089b]" name="testcase1" duration-ms="12946" started-at="2020-09-27T12:50:45Z" data-provider="dp" finished-at="2020-09-27T12:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:demo.FirstTest@19bb089b]" name="testcase1" duration-ms="9587" started-at="2020-09-27T12:50:58Z" data-provider="dp" finished-at="2020-09-27T12:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.FirstTest@19bb089b]" name="afterTest" is-config="true" duration-ms="5142" started-at="2020-09-27T12:51:07Z" finished-at="2020-09-27T12:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demo.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
